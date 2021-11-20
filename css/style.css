@@ -54,11 +54,28 @@
 	color: rgba(252, 252, 252, 0.987);
 	font-family:'Poppins', sans-serif;
 }
+.aboutus{
+	background-image:url(https://www.publicdomainpictures.net/pictures/200000/nahled/plain-blue-background.jpg);
+	background-size: cover;
+	width:100%;
+	background-position: 50% 50%;
+}
 h5{
 	font-family: 'Poppins', sans-serif;
 	color: rgb(5, 68, 131);
 	font-weight: 900;
 }
+h2{
+	font-family: 'Poppins', sans-serif;
+	color: black;
+	font-weight: 900;
+}
+.accordion-button{
+	color: black;
+	font-weight: bold;
+}
+
+
 p{
 	font-family: 'Poppins',sans-serif;
 	font-weight: 700;
@@ -111,4 +128,11 @@ h1{
 	-webkit-box-shadow: 2px -1px 26px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: 2px -1px 26px 0px rgba(9, 148, 33, 0.679);
 	transition: 0.5s;
+}
+footer{
+	background-color:black
+}
+.contact_form{
+	border: #006fff;
+	border-width: 1px;
 }
