@@ -54,6 +54,33 @@
 	color: rgba(252, 252, 252, 0.987);
 	font-family:'Poppins', sans-serif;
 }
+h5{
+	font-family: 'Poppins', sans-serif;
+	color: rgb(232, 237, 242);
+	font-weight: 900;
+}
+p{
+	font-family: 'Poppins',sans-serif;
+	font-weight: 700;
+	color:blue;
+}
+.ask{
+	font-family: 'Poppins',sans-serif;
+	font-weight: 700;
+	color:whitesmoke;
+
+}
+.mission {
+	color:blue;
+	font-size:2rem;
+	font-family: 'Kumbh Sans', sans-serif;;
+
+}
+h1{
+	font-size: 4rem;
+	font-weight: 700;
+	font-family:'Poppins', sans-serif;
+}
 .btn1{
 	height: 45px;
 	width: 35%;
@@ -63,4 +90,7 @@
 	color: white;
 	font-weight: 700;
 	border-radius: 60px;
+}
+.product {
+	background-color:rgb(51, 227, 247);
 }
