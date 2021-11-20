@@ -56,13 +56,13 @@
 }
 h5{
 	font-family: 'Poppins', sans-serif;
-	color: rgb(232, 237, 242);
+	color: rgb(5, 68, 131);
 	font-weight: 900;
 }
 p{
 	font-family: 'Poppins',sans-serif;
 	font-weight: 700;
-	color:blue;
+	color:rgb(4, 143, 32);
 }
 .ask{
 	font-family: 'Poppins',sans-serif;
@@ -71,7 +71,7 @@ p{
 
 }
 .mission {
-	color:blue;
+	color:rgba(4,143,32,0.75);
 	font-size:2rem;
 	font-family: 'Kumbh Sans', sans-serif;;
 
@@ -91,6 +91,24 @@ h1{
 	font-weight: 700;
 	border-radius: 60px;
 }
+.btn1:hover{
+	background-color:rgb(4, 143, 32);
+	height: 48px;
+	width: 39%;
+	font-size:18px;
+	transition:0.5s;
+
+	
+}
 .product {
-	background-color:rgb(51, 227, 247);
+	background: #006fff;
+	background: linear-gradient(90deg,#00A296 0%, #ffffff 80%);
+	background: -webkit-linear-gradient(90deg,#00A296 0%, #ffffff 80%);
+	background: -moz-linear-gradient(90deg,#00A296 0%, #ffffff 80%);
+}
+.card:hover{
+	box-shadow: 2px -1px 26px 0px rgba(4,143,32,0.75);
+	-webkit-box-shadow: 2px -1px 26px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 2px -1px 26px 0px rgba(9, 148, 33, 0.679);
+	transition: 0.5s;
 }
