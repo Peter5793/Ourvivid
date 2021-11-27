@@ -62,7 +62,7 @@
 }
 h5{
 	font-family: 'Poppins', sans-serif;
-	color: rgb(5, 68, 131);
+	color: rgb(10, 118, 220);
 	font-weight: 900;
 }
 h2{
@@ -114,7 +114,9 @@ h1{
 	width: 39%;
 	font-size:18px;
 	transition:0.5s;
-
+	box-shadow: 2px -1px 26px 0px rgba(4,143,32,0.75);
+-webkit-box-shadow: 2px -1px 26px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px -1px 26px 0px rgba(9, 148, 33, 0.679);
 	
 }
 .product {
@@ -136,3 +138,41 @@ footer{
 	border: #006fff;
 	border-width: 1px;
 }
+.about_us {
+	background-image:url(https://www.publicdomainpictures.net/pictures/200000/nahled/plain-blue-background.jpg);
+	background-size: cover;
+	width:100%;
+	background-position: 50% 50%;
+}
+.des {
+	font-size: 2rem;
+}
+.des_1 {
+	font-size: 2rem;
+	color: whitesmoke;
+}
+li {
+	font-size: 1.5rem;
+	color: #fff;
+	font-family: inherit;
+}
+.faq {
+	font-size: 2rem;
+	font-family: 'Poppins', sans-serif;
+	color:white;
+	text-decoration: none;
+}
+.faq:hover{
+	font-size: 3rem;
+	color:white;
+	transition: 0.5s;
+}
+.faq_li {
+	font-size: 1rem;
+	color: black;
+	font-family: inherit;
+
+}
+
+
+
