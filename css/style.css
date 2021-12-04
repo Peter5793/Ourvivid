@@ -28,7 +28,7 @@
 	border-radius: 60px;
 	margin-right: -35px;
 	outline:  none;
-	border:  1px solid rgb(10, 118, 220);
+	border:  1px solid rgb(4, 143, 32);
 }
 .btn{
 	height: 40px;
@@ -36,7 +36,7 @@
 	font-family: 'Poppins', sans-serif;
 	outline:  none;
 	border:  none;
-	background :rgb(10, 118, 220);
+	background :rgb(4, 143, 32);
 	color:  white;
 	font-weight: 700;
 	border-radius: 60px;
@@ -155,6 +155,7 @@ li {
 	font-size: 1.5rem;
 	color: #fff;
 	font-family: inherit;
+	
 }
 .faq {
 	font-size: 2rem;
@@ -171,7 +172,25 @@ li {
 	font-size: 1rem;
 	color: black;
 	font-family: inherit;
-
+}
+.site-footer {
+	background: #00A296;
+	padding:45px 0 20px;
+	font-size:15px;
+	line-height:24px;
+	color:whitesmoke;
+	font-family:'Poppins' sans-serif;
+	text-decoration: none;
+  }
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.h6{
+	font-family: 'Poppins' sans-serif;
+	font-size:2-rem;
+	color:blue;
 }
 
 
