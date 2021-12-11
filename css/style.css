@@ -22,6 +22,8 @@
 	color: darkgrey;
 	
 }
+.dropdown-menu {
+}
 .search{
 	height:  40px;
 	width:  80%;
@@ -193,6 +195,8 @@ li {
 	font-size:2-rem;
 	color:blue;
 }
+
+
 
 
 

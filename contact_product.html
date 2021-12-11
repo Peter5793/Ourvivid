@@ -45,7 +45,7 @@
     <div class = "container py-5">
       <div class="row py-4">
         <div class="col-lg-7 ">
-          <h1 class="pt-5" style="color: honeydew;"> We are always here For You </h1>
+          <h1 class="pt-5" style="color: honeydew;"> Make an Enquiry on our Products </h1>
         </div>
       </div>
     </div>
@@ -58,24 +58,24 @@
             <div id="form_alerts"></div>
             <div class="form-group mb-3">
               <label for="email" class="form-label">Email address</label>
-              <input type="email" class="form-control " id="email" name= "E-mail " aria-describedby="emailHelp" required placeholder= "abc@example.com" >
+              <input type="email" class="form-control " id="email" name= "E-mail" aria-describedby="emailHelp" required placeholder= "abc@example.com" >
               <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
             </div>
             <div class="mb-3">
-              <label for="firstname" class="form-label">First Name</label>
-              <input type="text" class="form-control" id="firstname" name="First-Name" aria-describedby="emailHelp" required placeholder=" Your First Name">
+              <label for="firstname" class="form-label">Customer  Name</label>
+              <input type="text" class="form-control" id="firstname" name="Name" aria-describedby="emailHelp" required placeholder=" Your Name">
             </div>
             <div class="mb-3">
-              <label for="lastname" class="form-label">Last Name</label>
-              <input type="text" class="form-control" id="lastname" name="Last-Name"  aria-describedby="emailHelp" placeholder=" Your Last Name">
+              <label for="product_name" class="form-label">Product</label>
+              <input type="text" class="form-control" id="product_name" name="product_name"  aria-describedby="emailHelp" placeholder="Name of the Product">
             </div>
             <div class="mb-3">
               <label for="phonenumber" class="form-label">Phone Number</label>
               <input type="tel" class="form-control" id="phonenumber"  name= "Phone Number" placeholder=" +25412345670">
             </div>
             <div class="form-group mb-3">
-              <label for="message">Reason for Contacting us</label>
-              <textarea class="form-control" id="message" rows="3"  name="Reason"required></textarea>
+              <label for="query">Query</label>
+              <textarea class="form-control" id="query" rows="3"  name="Query"required></textarea>
             </div>
             <div class="mb-3 form-check">
               <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
@@ -93,7 +93,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
     <script>
-      const scriptURL = 'https://script.google.com/macros/s/AKfycbwoVaI2YcXVoGeJ9VRB1YK80aIi-UJIpB__zOS5dp06WvNRlKGPwvYw0b04t0nSl49Z/exec'
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbz_tFjmTFRYzpCbFdxKED8BDy1aCFIBqAYoaEOJ-frq9FFvFAtQO7cdJyMOpEPy-Gss/exec'
       const form = document.forms['google-sheet']
           
               form.addEventListener('submit', e => {
